@@ -1,0 +1,156 @@
+.login_main{
+    width: 100vw;
+    height: 77vh;
+    display: grid;
+    place-content: center;
+}
+
+.login_form{
+    width: 350px;
+    height: 500px ;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color-white);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_form_message{
+    width: 100%;
+    margin: 10px 0;
+    font-family: var(--font-principal);
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--secondary-color-dark);
+}
+
+.login_form_data{
+    width: 100%;
+    line-height: 30px;
+    padding: 15px;
+    color: var(--secondary-color-dark);
+    background-color: var(--primary-color-white);
+    border-radius: 10px;
+    font-family: var(--font-principal);
+}
+
+.login_form_data h5{
+    font-family: var(--font-principal);
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.login_form_input{
+    width: 100%;
+    height: 12vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form_input input{
+    width: 100%;
+    height: 5vh;
+    border: none;
+    background-color: var(--primary-color-white);
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: var(--font-principal);
+}
+
+.login_form_btn{
+    width: 100%;
+    height: 5vh;
+    background-color: var(--secondary-highlight-color);
+    border: none;
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--secondary-color-dark);
+    transition: 0.5s;
+}
+
+.login_form_btn:hover{
+    background-color: var(--secondary-color-dark);
+    color: var(--primary-color-white);
+}
+.login_form_btn:active{
+    background-color: var(--secondary-color-dark);
+    color: var(--primary-color-white);
+}
+
+.login_form_register{
+    font-family: var(--font-principal);
+}
+
+.login_form_register span{
+    color: var(--secondary-highlight-color);
+
+}
+
+
+/*========================Log Out=================*/
+
+
+.login_logout{
+    width: 300px;
+    height: 250px;
+    background-color: var(--primary-color-white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.login_logout_icon_container{
+    width: 100%;
+    height: 50%;
+    display: grid;
+    place-content: center;
+}
+
+.login_logout_icon{
+    width: 70px;
+    height: 70px;
+    margin: 50px 0;
+    border-radius: 50%;
+    background-color: var(--primary-color-white);
+    display: grid;
+    place-content: center;
+    font-size: 3rem;
+}
+
+.login_logout_username{
+    font-family: var(--font-principal);
+    color: var(--secondary-highlight-color);
+    font-size: 1.2rem;
+}
+
+.login_logout_btn{
+    width: 100%;
+    height: 10vh;
+    border: none;
+    font-size: 1rem;
+    font-family: var(--font-principal);
+    font-weight: 500;
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--primary-color-white);
+    transition: 0.5s;
+}
+
+.login_logout_btn:hover{
+    background-color: var(--secondary-highlight-color);
+    color: var(--primary-color-white);
+}
+
+.login_logout_btn:active{
+    background-color: var(--secondary-highlight-color);
+    color: var(--primary-color-white);
+}

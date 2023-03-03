@@ -1,0 +1,104 @@
+.productcard_container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.productcard{
+    width: 350px;
+    height: 70vh;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid var(--primary-color-white);
+    background-color: var(--primary-color);
+}
+
+@media(min-width: 500px){
+    .productcard{
+        margin: 10px 0;
+    }
+    .productcard_container{
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+}
+
+.productcard_header{
+    margin: 10px 0;
+    height: 60%;
+    width: 100%;;
+}
+
+.productcard_images_container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.productcard_image{
+    height: 100%;
+    object-fit: contain;
+}
+
+.productcard_info{
+    position: relative;
+    width: 100%;
+    height: calc(40% - 30px);
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: center;
+    border-top: solid 2px var(--primary-color-white);
+}
+
+.productcad_info_title h4{
+    width: 100%;
+    font-family: var(--font-principal);
+    color:var(--secondary-color-dark) ;
+}
+
+.productcad_info_title h5{
+    font-family: var(--font-principal);
+    font-weight: 500;
+    color: var(--secondary-color-white);
+}
+
+.productcard_info_price h4{
+    width: 100%;
+    font-family: var(--font-principal);
+    color:var(--secondary-color-dark) ;
+}
+
+.productcard_info_price h5{
+    font-family: var(--font-principal);
+    font-weight: 500;
+    color: var(--secondary-color-white);
+}
+
+.productcard_add_product{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-highlight-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
